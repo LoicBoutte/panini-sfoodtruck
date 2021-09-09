@@ -56,11 +56,14 @@ body{
   background-color: #f6f6f6;
   padding: 40px 40px;
   margin-bottom: 50px;
-  font-family: "Shrikhand", Arial;
+  
+  font-family: "Roboto", sans-serif;
 }
 .presentation__book {
   font-weight: bold;
   font-size: 25px;
+  
+  font-family: "Roboto", sans-serif;
 }
 .presentation__explore {
   padding: 0.75rem 1.5rem;
@@ -95,7 +98,7 @@ h3,
 h4,
 h5,
 h6,
-p{
+{
   font-family: "Shrikhand", Arial;
 }
 

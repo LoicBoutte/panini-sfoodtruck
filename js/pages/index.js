@@ -33,11 +33,6 @@ function displayProduct(product) {
   const cloneElt = document.importNode(templateElt.content, true)
 
   // Hydrate template
-  cloneElt.getElementById('productImage').src = product.imag
-  cloneElt.getElementById('productName').textContent = product.nam
-  cloneElt.getElementById('productPrice').textContent = `${product.pric / 100}.00 €`
-  cloneElt.getElementById('productDescription').textContent = product.descriptio
-  cloneElt.getElementById('productLink').href = `/products.html?id=${product._id}`
 
   // Display template
   document.getElementById('productsList').appendChild(cloneElt)
