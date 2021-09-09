@@ -35,13 +35,16 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+body{
+  box-sizing: border-box;
+}
 
 
 .logopan{
 
   color: red;
   font-size: px;
-  font-family: "DEFTONE", Arial;
+  font-family: "Shrikhand", Arial;
 
 
 }
