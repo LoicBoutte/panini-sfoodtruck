@@ -84,6 +84,27 @@ html {
   padding-bottom: 20px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+  color: grey;
+}
+
+
+
+body{
+    box-sizing: border-box;
+}
+
+
 
 /*
 Sections
