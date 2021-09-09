@@ -46,6 +46,43 @@ html {
 
 }
 
+.presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 40px 40px;
+  margin-bottom: 50px;
+}
+.presentation__book {
+  font-weight: bold;
+  font-size: 25px;
+}
+.presentation__explore {
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-align: center;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  transition: background-color 250ms;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+}
+.presentation__explore:hover {
+  opacity: 0.8;
+  box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+}
+
+.presentation .presentation__book{
+  padding-bottom: 20px;
+}
+
+.presentation .presentation__discover{
+  padding-bottom: 20px;
+}
 
 
 /*
